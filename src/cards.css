@@ -46,18 +46,19 @@ html {
 }
 
 .cardGroup {
+  flex-direction: column;
     width: 318px;
     /* display */
     display: flex;
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
-  
+    
   }
   
     .cardGroup__card {
       /* flex-grow, flex-shrink, flex-basis */
-      flex: 1 1 320px;
+      flex: 1 1 220px;
       border: none;
       border-radius: 0;
       
@@ -75,7 +76,7 @@ html {
 @media screen and (min-width: 500px){
   .cardGroup{
     width: 708px;
-    
+    flex-direction: row;
   }
   }
 .centralizar {
